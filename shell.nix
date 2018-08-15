@@ -14,6 +14,7 @@ in
       nixpkgs.neovim
       nixpkgs.zsh
       nixpkgs.git
+      nixpkgs.openssh
     ] ++ (if system == "x86_64-darwin" then [
       nixpkgs.darwin.apple_sdk.frameworks.Security
 
