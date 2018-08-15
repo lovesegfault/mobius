@@ -14,7 +14,10 @@ travis-ci = { repository = "bemeurer/mobius", branch = "master" }
 maintenance = { status = "actively-developed" }
 
 [dependencies]
-num = "0.2.0"
+num = "0.2"
+
+[dev-dependencies]
+serde_json = "1.0"
 
 [profile.dev]
 opt-level = 1
